@@ -1,0 +1,59 @@
+body{
+   background-size: cover;
+   background-repeat: no-repeat;
+  background-position: center;
+  height: 94vh;
+  
+    background-image: url(https://img.freepik.com/free-photo/elevated-view-spiral-notepad-pen-pencil-artificial-fern-spectacles-paper-clips-white-backdrop_23-2147917053.jpg?w=1060&t=st=1708421242~exp=1708421842~hmac=dd13c9f61fcd2885227896be12ca74e9a2a2a9929265614ad7ea5dc5072e093d);
+}
+hr{
+    width: 650px;
+}
+.addlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
+input{
+    height: 30px;
+    width: 400px;
+    border: 2px solid #2d5be2;
+}
+
+button{
+    width: fit-content;
+    background-color: transparent;
+    border: transparent;
+    transform: translate(0.5s);
+    width: 35px;
+}
+
+button :hover{
+    background-color:rgb(179, 180, 230) ;
+}
+
+
+
+.memberContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.index{
+    width: 10%;
+    font-size: 400;
+    font-weight: 600;
+}
+.member{
+     width: 20%;
+     font-size: 400;
+     font-weight: 600;
+}
+.edit-BTN{
+    width: 10%;
+}
